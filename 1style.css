@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.main {
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* BACKGROUND */
+
+main {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #0b0c0f;
+}
+
+.main .filter {
+    background-image: url('./img/01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: .22;
+}
+
+/* ALL the TEXT */
+
+.m {
+    z-index: 1;
+}
+
+.m h2 {
+    font-family: 'Offside';
+    color: #f8f7f7;
+    text-shadow: 0px 0px 40px #21d;
+    font-size: 60px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.m hr {
+    background: linear-gradient(45deg, rgb(42, 26, 226), rgb(117, 124, 224));
+    margin: 2px;
+	height: 4.5px;
+	width: 175px;
+    border-radius: 10px;
+	border: hidden;
+	margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.ab {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Offside';
+    font-size: 1.5em;
+    min-width: 60%;
+}
+
+.m p {
+    text-align: center;
+    font-family: 'Offside';
+    font-size: 1.4rem;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+/* SOCIAL logos */
+
+.logos {
+    padding: 10px;
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos a {
+    margin: 10px;
+    font-size: 2rem;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+}
+
+.logos a i {
+    cursor: pointer;
+}
+
+.logos a:hover {
+    color: rgb(117, 124, 224);
+    text-shadow: 0 0 50px rgb(117, 124, 224);
+}
+
+/* ADAPTATIONS */
+
+@media screen and (max-height: 600px) {
+    .m p {
+        text-align: center;
+        font-family: 'Offside';
+        font-size: 1rem;
+        margin: 5px;
+        margin-top: 10px;
+    }
+    
+    .m h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .m p {
+        margin-left: 22vh;
+        margin-right: 22vh;
+    }
+}
