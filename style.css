@@ -43,7 +43,7 @@ main {
     z-index: 1;
 }
 
-.m h2 {
+.h2 {
     font-family: 'Offside';
     color: #f8f7f7;
     text-shadow: 0px 0px 40px #21d;
@@ -70,7 +70,7 @@ main {
     font-size: 1.5em;
 }
 
-.m p {
+.p {
     text-align: center;
     font-family: 'Offside';
     font-size: 1.4rem;
@@ -108,48 +108,93 @@ main {
 /* ADAPTATIONS */
 
 @media screen and (max-height: 600px){
-    .m p {
+    .p {
         font-size: 1.5rem;
     }
     
-    .m h2 {
+    .h2 {
         font-size: 2rem;
     }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1499px) {
-    .m p {
+    .p {
         margin-left: 20vh;
         margin-right: 20vh;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 999px){
-    .m p {
-        margin-left: 10vh;
-        margin-right: 10vh;
-        font-size: 3rem;
-        margin-top: 5px;
+    .p {
+        margin-left: 7vh;
+        margin-right: 7vh;
+        font-size: 3.2rem;
+        margin-top: 25px;
     }
 
-    h2 {
+    .h2 {
+      font-size: 5rem;
+    }
+
+    .ab {
+      padding-top: 20px;
+      font-size: 3.2rem;
+    }
+
+    .main .filter {
+      opacity: .27;
+    }
+
+    .main {
+      color: #ffffffbb;
+    }
+
+    .h2 {
+      color: #ffffffbb;
+    }
+
+    .logos a {
+      color: #ffffffbb;
       font-size: 4rem;
-    }
-
-    m .ab {
-      padding-top: 0.1px;
+      margin-top: 15px;
+      margin-right: 30px;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 999px) and (max-height: 1100px){
-    .m p {
+    .p {
         margin-left: 10vh;
         margin-right: 10vh;
         font-size: 1.5rem;
+        margin-top: 10px;
     }
 
-    h2 {
+    .h2 {
       font-size: 2.5rem;
+    }
+
+    .ab {
+      font-size: 1.5rem;
+      padding-top: 10px;
+    }
+
+    .main .filter {
+      opacity: .22;
+    }
+
+    .main {
+      color: #fff;
+    }
+
+    .h2 {
+      color: #f8f7f7;
+    }
+
+    .logos a {
+      color: #fff;
+      font-size: 2rem;
+      margin-top: 5px;
+      margin-right: 10px;
     }
 }
 
@@ -162,7 +207,7 @@ main {
 } */
 
 @media screen and (min-width: 1500px) {
-    .m p {
+    .p {
         font-size: 2.5rem;
         margin-left: 20vh;
         margin-right: 20vh;
